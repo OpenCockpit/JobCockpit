@@ -6,6 +6,7 @@ screen:
     - xmlinc:
         file: "screenpart_TitleBar.ymlinc"
     - widget:
+        backgroundColorSelected: "$backgroundColorSelected"
         position: "10,65"
         render: "Listbox"
         scrollbarMode: "showOnDemand"

@@ -19,7 +19,7 @@
 		<eLabel backgroundColor="backgroundDark" position="0,0" size="1416,55"/>
 		<widget font="Bold;38" position="10,0" render="Label" size="1396,55" source="Title" transparent="1" valign="center" zPosition="1"/>
 		<eLabel backgroundColor="separator" position="0,54" size="1416,2"/>
-		<widget position="10,65" render="Listbox" scrollbarMode="showOnDemand" size="e-20,570" source="list" transparent="1">
+		<widget backgroundColorSelected="blue" position="10,65" render="Listbox" scrollbarMode="showOnDemand" size="e-20,570" source="list" transparent="1">
 			<convert type="TemplatedMultiContent">
 			{
 				"template": [
