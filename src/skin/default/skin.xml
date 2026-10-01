@@ -28,18 +28,18 @@
 					MultiContentEntryProgress(pos=(250,50), size=(1000,20), percent=-2, borderWidth=1),
 					MultiContentEntryText(pos=(1266,40), size=(100,40), font=0, flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER, text=3),
 				],
-				"fonts": [gFont("Regular",28)],
+				"fonts": [parseFont("Regular;26")],
 				"itemHeight": 80
 			}
 			</convert>
 		</widget>
 		<eLabel backgroundColor="separator" position="0,644" size="1416,2"/>
 		<eLabel backgroundColor="backgroundDark" position="0,645" size="1416,55"/>
-		<widget conditional="key_red" font="Regular;32" foregroundColor="red" halign="center" name="key_red" position="0,652" size="309,38" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_green" font="Regular;32" foregroundColor="green" halign="center" name="key_green" position="309,652" size="309,38" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_yellow" font="Regular;32" foregroundColor="yellow" halign="center" name="key_yellow" position="618,652" size="309,38" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_blue" font="Regular;32" foregroundColor="blue" halign="center" name="key_blue" position="927,652" size="309,38" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_menu" font="Regular;32" foregroundColor="white" halign="center" name="key_menu" position="1236,652" size="90,38" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_info" font="Regular;32" foregroundColor="white" halign="center" name="key_info" position="1326,652" size="90,38" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_red" font="Regular;32" foregroundColor="red" halign="center" name="key_red" position="0,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_green" font="Regular;32" foregroundColor="green" halign="center" name="key_green" position="309,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_yellow" font="Regular;32" foregroundColor="yellow" halign="center" name="key_yellow" position="618,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_blue" font="Regular;32" foregroundColor="blue" halign="center" name="key_blue" position="927,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_menu" font="Regular;32" foregroundColor="white" halign="center" name="key_menu" position="1236,645" size="90,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_info" font="Regular;32" foregroundColor="white" halign="center" name="key_info" position="1326,645" size="90,55" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 </skin>

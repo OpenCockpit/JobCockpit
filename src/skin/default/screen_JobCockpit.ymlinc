@@ -19,18 +19,18 @@ screen:
               cell:
                 itemHeight: 80
                 fonts:
-                  - "Regular;28"
+                  - "$FR_small"
                 fields:
                   - text:
                       position: "10,0"
                       size: "1000,40"
-                      font: "Regular;28"
+                      font: "$FR_small"
                       flags: RT_HALIGN_LEFT|RT_VALIGN_CENTER
                       value: 0
                   - text:
                       position: "10,40"
                       size: "200,40"
-                      font: "Regular;28"
+                      font: "$FR_small"
                       flags: RT_HALIGN_LEFT|RT_VALIGN_CENTER
                       value: 1
                   - progress:
@@ -41,7 +41,7 @@ screen:
                   - text:
                       position: "1266,40"
                       size: "100,40"
-                      font: "Regular;28"
+                      font: "$FR_small"
                       flags: RT_HALIGN_RIGHT|RT_VALIGN_CENTER
                       value: 3
     - xmlinc:
