@@ -1,6 +1,6 @@
 widget:
   conditional: "$key"
-  font: "$FR_medium"
+  font: "$FB_big"
   foregroundColor: "$color"
   halign: "center"
   name: "$name"
