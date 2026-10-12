@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JobCockpit\n"
+"POT-Creation-Date: 2026-02-24 16:14+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Orlandox\n"
+"Language-Team: Orlandox\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Job Management"
+msgstr "Tehtävien hallinta"
+
+msgid "Abort current job"
+msgstr "Keskeytä nykyinen tehtävä"
+
+msgid "Abort all jobs"
+msgstr "Keskeytä kaikki tehtävät"
+
+msgid "Abort all pending jobs"
+msgstr "Keskeytä kaikki odottavat tehtävät"
+
+msgid "Cleanup jobs"
+msgstr "Puhdista tehtävät"
+
+msgid "Waiting"
+msgstr "Odottaa"
+
+msgid "In Progress"
+msgstr "Käynnissä"
+
+msgid "Finished"
+msgstr "Valmis"
+
+msgid "Failed"
+msgstr "Epäonnistui"
+
+msgid "Manage Jobs"
+msgstr "Hallitse tehtäviä"
+
+msgid "Jobs"
+msgstr "Tehtävät"
