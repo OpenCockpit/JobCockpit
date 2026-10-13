@@ -2,3 +2,4 @@ Description: JobCockpit
 Maintainer: xcentaurix
 Package: enigma2-plugin-systemplugins-jobcockpit
 Architecture: all
+Depends: enigma2-plugin-systemskins-fontcockpit

@@ -15,6 +15,10 @@
 		<color name="cyan" value="#57ffff"/>
 		<color name="blue" value="#1e4ab5"/>
 	</colors>
+	<fonts>
+		<font filename="/usr/share/enigma2/FontCockpit/fonts/DejaVuSans.ttf" name="Regular" scale="89"/>
+		<font filename="Roboto-Bold.ttf" name="Bold" scale="71"/>
+	</fonts>
 	<screen backgroundColor="backgroundMedium" flags="wfNoBorder" name="JobCockpit" position="center,center" resolution="1920,1080" size="1416,700">
 		<eLabel backgroundColor="backgroundDark" position="0,0" size="1416,55"/>
 		<widget font="Bold;38" position="10,0" render="Label" size="1396,55" source="Title" transparent="1" valign="center" zPosition="1"/>
@@ -35,11 +39,11 @@
 		</widget>
 		<eLabel backgroundColor="separator" position="0,644" size="1416,2"/>
 		<eLabel backgroundColor="backgroundDark" position="0,645" size="1416,55"/>
-		<widget conditional="key_red" font="Bold;38" foregroundColor="red" halign="center" name="key_red" position="0,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_green" font="Bold;38" foregroundColor="green" halign="center" name="key_green" position="309,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_yellow" font="Bold;38" foregroundColor="yellow" halign="center" name="key_yellow" position="618,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_blue" font="Bold;38" foregroundColor="blue" halign="center" name="key_blue" position="927,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_menu" font="Bold;38" foregroundColor="white" halign="center" name="key_menu" position="1236,645" size="90,55" transparent="1" valign="center" zPosition="2"/>
-		<widget conditional="key_info" font="Bold;38" foregroundColor="white" halign="center" name="key_info" position="1326,645" size="90,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_red" font="Bold;38" foregroundColor="red" halign="center" name="key_red" noWrap="1" position="0,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_green" font="Bold;38" foregroundColor="green" halign="center" name="key_green" noWrap="1" position="309,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_yellow" font="Bold;38" foregroundColor="yellow" halign="center" name="key_yellow" noWrap="1" position="618,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_blue" font="Bold;38" foregroundColor="blue" halign="center" name="key_blue" noWrap="1" position="927,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_menu" font="Bold;38" foregroundColor="white" halign="center" name="key_menu" noWrap="1" position="1236,645" size="90,55" transparent="1" valign="center" zPosition="2"/>
+		<widget conditional="key_info" font="Bold;38" foregroundColor="white" halign="center" name="key_info" noWrap="1" position="1326,645" size="90,55" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 </skin>
