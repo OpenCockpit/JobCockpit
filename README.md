@@ -13,3 +13,4 @@ Enigma2 plugin replacing standard job manager
 
 ## Links
 - Installation: https://OpenCockpit.github.io/JobCockpit
+- User Guide: https://github.com/OpenCockpit/JobCockpit/wiki
