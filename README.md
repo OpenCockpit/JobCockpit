@@ -8,9 +8,14 @@ Enigma2 plugin replacing standard job manager
 - Adds functions to query successfully completed and failed jobs.
 - Provides separate task managers by plugin that allows parallel execution of jobs.
 
+## Documentation
+Installation, usage and the interface for other plugins are described in the [JobCockpit wiki](https://github.com/OpenCockpit/JobCockpit/wiki).
+
 ## Limitations
 - Tested on OpenViX and OpenATV with DM900.
 
-## Links
-- Installation: https://OpenCockpit.github.io/JobCockpit
-- User Guide: https://github.com/OpenCockpit/JobCockpit/wiki
+## Installation
+The plugin will be installed as a dependency, no explicit installation required.
+
+## Wiki
+- https://github.com/OpenCockpit/JobCockpit/wiki
