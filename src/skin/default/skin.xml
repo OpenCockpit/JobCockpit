@@ -39,52 +39,14 @@
 		<color name="md_transparent" value="#ff000000"/>
 	</colors>
 	<fonts>
-		<font filename="fonts/DejaVuSans.ttf" name="Regular" scale="89"/>
+		<font filename="OpenSans-Regular.ttf" name="Regular" scale="89"/>
 		<font filename="Roboto-Bold.ttf" name="Bold" scale="71"/>
-		<font filename="fonts/BNR.otf" name="ExtraF_3" scale="100"/>
-		<font filename="fonts/Bignoodletitling.ttf" name="CAID" scale="100"/>
-		<font filename="lcd.ttf" name="LCD" scale="100"/>
-		<font filename="tuxtxt.ttf" name="Console" scale="100"/>
-		<font filename="andale.ttf" name="Fixed" scale="100"/>
-		<font filename="DejaVuSans.ttf" name="DejaVuSans" scale="100"/>
-		<alias font="Regular" height="38" name="ChoiceList" size="28"/>
-		<alias font="Regular" height="38" name="TextNormal" size="28"/>
-		<alias font="Regular" height="25" name="ChoiceBoxDescription" size="22"/>
-		<alias font="Regular" height="38" name="FileList" size="28"/>
-		<alias font="Regular" height="38" name="FileListMulti" size="28"/>
-		<alias font="Regular" height="76" name="PluginBrowser0" size="32"/>
-		<alias font="Regular" name="PluginBrowser1" size="22"/>
-		<alias font="Regular" height="45" name="ServiceInfo" size="30"/>
-		<alias font="Regular" height="45" name="SelectionList" size="30"/>
-		<alias font="Regular" height="30" name="ImsSelectionList" size="28"/>
-		<alias font="Regular" height="38" name="PartnerBoxEntryList0" size="28"/>
-		<alias font="Regular" name="PartnerBoxEntryList1" size="28"/>
-		<alias font="Regular" height="114" name="PartnerBoxE2TimerMenu0" size="32"/>
-		<alias font="Regular" name="PartnerBoxE2TimerMenu1" size="28"/>
-		<alias font="Regular" height="45" name="PartnerBoxBouquetList0" size="32"/>
-		<alias font="Regular" name="PartnerBoxBouquetList1" size="28"/>
-		<alias font="Regular" height="114" name="PartnerBoxChannelList0" size="32"/>
-		<alias font="Regular" name="PartnerBoxChannelList1" size="28"/>
-		<alias font="Regular" height="38" name="PartnerBoxChannelEPGList0" size="32"/>
-		<alias font="Regular" name="PartnerBoxChannelEPGList1" size="24"/>
-		<alias font="DejaVuSans" height="68" name="VirtualKeyBoard" size="42"/>
-		<alias font="Regular" height="45" name="HelpMenuList" size="30"/>
-		<alias font="Regular" height="75" name="HelpMenuListExt0" size="32"/>
-		<alias font="Regular" name="HelpMenuListExt1" size="28"/>
-		<alias font="Regular" height="45" name="Dreamexplorer" size="30"/>
-		<alias font="Regular" height="38" name="PlayList" size="28"/>
-		<alias font="Regular" height="25" name="AutotimerList" size="22"/>
-		<alias font="Regular" name="AutotimerListExt0" size="28"/>
-		<alias font="Regular" height="95" name="AutotimerListExt1" size="22"/>
-		<alias font="Fixed" height="45" name="FcZipArchiver" size="26"/>
-		<alias font="Regular" name="AutomaticVolumeAdjustment0" size="28"/>
-		<alias font="Regular" name="AutomaticVolumeAdjustment1" size="28"/>
 	</fonts>
 	<screen backgroundColor="md_surface" flags="wfNoBorder" name="JobCockpit" position="center,center" resolution="1920,1080" size="1416,700">
-		<eLabel backgroundColor="md_surface_container_lowest" position="0,0" size="1416,55"/>
-		<widget font="Bold;36" position="10,0" render="Label" size="1396,55" source="Title" transparent="1" valign="center" zPosition="1"/>
+		<eLabel backgroundColor="md_surface_container_high" position="0,0" size="1416,55"/>
+		<widget font="Bold;36" foregroundColor="md_primary" position="10,0" render="Label" size="1396,55" source="Title" transparent="1" valign="center" zPosition="1"/>
 		<eLabel backgroundColor="md_outline_variant" position="0,54" size="1416,2"/>
-		<widget backgroundColorSelected="md_primary_container" itemCornerRadiusSelected="8" position="10,65" render="Listbox" scrollbarMode="showOnDemand" size="e-20,570" source="list" transparent="1">
+		<widget backgroundColorSelected="md_surface_container_high" foregroundColorSelected="md_primary" itemCornerRadiusSelected="8" position="10,65" render="Listbox" scrollbarMode="showOnDemand" size="e-20,570" source="list" transparent="1">
 			<convert type="TemplatedMultiContentEx">
 			{
 				"template": [
@@ -99,7 +61,7 @@
 			</convert>
 		</widget>
 		<eLabel backgroundColor="md_outline_variant" position="0,644" size="1416,2"/>
-		<eLabel backgroundColor="md_surface_container_lowest" position="0,645" size="1416,55"/>
+		<eLabel backgroundColor="md_surface_container_high" position="0,645" size="1416,55"/>
 		<widget conditional="key_red" font="Bold;36" foregroundColor="md_key_red" halign="center" name="key_red" noWrap="1" position="0,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
 		<widget conditional="key_green" font="Bold;36" foregroundColor="md_key_green" halign="center" name="key_green" noWrap="1" position="309,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
 		<widget conditional="key_yellow" font="Bold;36" foregroundColor="md_key_yellow" halign="center" name="key_yellow" noWrap="1" position="618,645" size="309,55" transparent="1" valign="center" zPosition="2"/>
