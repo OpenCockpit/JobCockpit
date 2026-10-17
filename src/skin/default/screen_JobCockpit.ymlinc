@@ -1,7 +1,7 @@
 screen:
   name: "JobCockpit"
   position: "center,center"
-  size: "1416,700"
+  size: "1416,858"
   children:
     - xmlinc:
         file: "screenpart_TitleBar.ymlinc"
@@ -12,12 +12,12 @@ screen:
         position: "10,65"
         render: "Listbox"
         scrollbarMode: "showOnDemand"
-        size: "e-20,570"
+        size: "e-20,e-130"
         source: "list"
         transparent: "1"
         children:
           - convert:
-              type: "TemplatedMultiContentEx"
+              type: "COCTemplatedMultiContentEx"
               cell:
                 itemHeight: 80
                 fonts:
