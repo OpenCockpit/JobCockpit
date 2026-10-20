@@ -1,0 +1,19 @@
+screen:
+  name: "WindowBase"
+  children:
+    - eLabel:
+        backgroundColor: "md_surface_container_high"
+        cornerRadius: "$radius_window"
+        position: "0,0"
+        size: "$width,$height-20"
+        zPosition: "-11"
+    - eLabel:
+        backgroundColor: "md_surface"
+        cornerRadius: "$radius_window_inner"
+        position: "2,62"
+        size: "$width-4,$height-144"
+        zPosition: "-10"
+    - xmlinc:
+        file: "screenpart_ButtonsBarTemplate.ymlinc"
+        position: "20,$height-68"
+        size: "$width-40,62"

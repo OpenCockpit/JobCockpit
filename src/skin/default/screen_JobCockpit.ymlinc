@@ -1,18 +1,20 @@
 screen:
+  backgroundColor: "md_transparent"
   name: "JobCockpit"
-  position: "center,center"
-  size: "1416,858"
+  position: "fill"
+  resolution: "1920,1080"
   children:
     - xmlinc:
-        file: "screenpart_TitleBar.ymlinc"
+        file: "screenpart_Window_Wide.ymlinc"
+        position: "252,111"
     - widget:
         backgroundColorSelected: "$backgroundColorSelected"
         foregroundColorSelected: "$foregroundColorSelected"
         itemCornerRadiusSelected: "$radius_item"
-        position: "10,65"
+        position: "14,76"
         render: "Listbox"
         scrollbarMode: "showOnDemand"
-        size: "e-20,e-130"
+        size: "1388,640"
         source: "list"
         transparent: "1"
         children:
@@ -46,5 +48,3 @@ screen:
                       font: "$md_body_small"
                       flags: RT_HALIGN_RIGHT|RT_VALIGN_CENTER
                       value: 3
-    - xmlinc:
-        file: "screenpart_Footer.ymlinc"
