@@ -45,3 +45,31 @@ msgstr "Hallitse tehtäviä"
 
 msgid "Jobs"
 msgstr "Tehtävät"
+
+msgid "Cancelled upon user request"
+msgstr "Keskeytetty käyttäjän toimesta"
+
+msgid "An unknown error occurred!"
+msgstr "Tuntematon virhe!"
+
+msgid "Not enough disk space. Please free up some disk space and try again. (%d MB required, %d MB available)"
+msgstr "Liian vähän levytilaa. Vapauta levytilaa ja yritä uudelleen. (%d Mt tarvitaan, %d Mt vapaana)"
+
+msgid "A required tool (%s) was not found."
+msgstr "Tarvittavaa osaa (%s) ei löytynyt."
+
+msgid "In progress"
+msgstr "Käynnissä"
+
+msgid "Error code"
+msgstr "Virhekoodi"
+
+msgid ""
+"Error: %s\n"
+"Retry?"
+msgstr ""
+"Virhe: %s\n"
+"Yritä uudelleen?"
+
+msgid "Error"
+msgstr "Virhe"

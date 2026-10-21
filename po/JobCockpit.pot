@@ -45,3 +45,31 @@ msgstr ""
 
 msgid "Jobs"
 msgstr ""
+
+msgid "Cancelled upon user request"
+msgstr ""
+
+msgid "An unknown error occurred!"
+msgstr ""
+
+msgid ""
+"Not enough disk space. Please free up some disk space and try again. (%d MB "
+"required, %d MB available)"
+msgstr ""
+
+msgid "A required tool (%s) was not found."
+msgstr ""
+
+msgid "In progress"
+msgstr ""
+
+msgid "Error code"
+msgstr ""
+
+msgid ""
+"Error: %s\n"
+"Retry?"
+msgstr ""
+
+msgid "Error"
+msgstr ""

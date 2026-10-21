@@ -45,3 +45,31 @@ msgstr "Jobs verwalten"
 
 msgid "Jobs"
 msgstr "Jobs"
+
+msgid "Cancelled upon user request"
+msgstr "Auf Benutzerwunsch abgebrochen"
+
+msgid "An unknown error occurred!"
+msgstr "Es ist ein unbekannter Fehler aufgetreten."
+
+msgid "Not enough disk space. Please free up some disk space and try again. (%d MB required, %d MB available)"
+msgstr "Nicht genügend freier Speicherplatz - bitte lösche nicht mehr benötigte Dateien, und versuche es erneut. (%d MB benötigt, %d MB verfügbar)"
+
+msgid "A required tool (%s) was not found."
+msgstr "Ein erforderliches Hilfsprogramm (%s) wurde nicht gefunden."
+
+msgid "In progress"
+msgstr "In Bearbeitung..."
+
+msgid "Error code"
+msgstr "Fehler Code"
+
+msgid ""
+"Error: %s\n"
+"Retry?"
+msgstr ""
+"Fehler aufgetreten: %s\n"
+"Erneut versuchen?"
+
+msgid "Error"
+msgstr "Fehler"
