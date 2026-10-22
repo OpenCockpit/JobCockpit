@@ -51,7 +51,7 @@
 		</widget>
 		<eLabel backgroundColor="md_surface_container_high" position="272,114" size="1156,60" zPosition="19"/>
 		<widget addon="ScreenHeader" backgroundColor="md_surface_container_high" connection="Image,Title,ScreenPath" pathFont="Bold;18" pathForegroundColor="md_primary" position="272,113" size="1156,60" titleFont="Bold;28" titleForegroundColor="md_primary" titleSingleFont="Bold;42" transparent="1" zPosition="20"/>
-		<widget backgroundColor="md_surface" backgroundColorSelected="md_surface_container_high" enableWrapAround="1" foregroundColor="md_on_surface" foregroundColorSelected="md_primary" itemCornerRadiusSelected="6" position="266,187" render="Listbox" scrollbarMode="showOnDemand" scrollbarSliderBorderColor="md_on_surface" scrollbarSliderBorderWidth="1" scrollbarSliderForegroundColor="md_on_surface_variant" scrollbarWidth="3" selectionFrame="none" size="1388,640" source="list" transparent="1">
+		<widget backgroundColor="md_surface" backgroundColorSelected="md_surface_container_high" enableWrapAround="1" foregroundColor="md_on_surface" foregroundColorSelected="md_primary" itemCornerRadiusSelected="6" position="266,187" render="Listbox" scrollbarMode="showOnDemand" scrollbarSliderBorderColor="md_on_surface" scrollbarSliderBorderWidth="1" scrollbarSliderForegroundColor="md_on_surface_variant" scrollbarWidth="5" selectionFrame="none" size="1388,640" source="list" transparent="1">
 			<convert type="COCTemplatedMultiContentEx">
 			{
 				"template": [
