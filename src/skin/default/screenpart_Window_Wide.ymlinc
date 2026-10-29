@@ -1,8 +1,0 @@
-screen:
-  frame: "true"
-  name: "Window_Wide"
-  children:
-    - xmlinc:
-        file: "screenpart_WindowChrome.ymlinc"
-        position: "0,0"
-        size: "$window_wide_width,$window_wide_height"
