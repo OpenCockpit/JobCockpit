@@ -16,7 +16,11 @@
 		<color name="md_outline_variant" value="#00424242"/>
 		<color name="md_on_surface" value="#00e3e3e3"/>
 		<color name="md_on_surface_variant" value="#00c4c4c4"/>
+		<color name="md_inverse_surface" value="#00b0b0b0"/>
+		<color name="md_inverse_on_surface" value="#00062f7a"/>
+		<color name="md_inverse_primary" value="#00062f7a"/>
 		<color name="md_primary" value="#00a8c7fa"/>
+		<color name="md_on_primary" value="#00062e6f"/>
 		<color name="md_primary_container" value="#000842a0"/>
 		<color name="md_primary_container_translucent" value="#250842a0"/>
 		<color name="md_primary_container_soft" value="#080842a0"/>
@@ -27,10 +31,15 @@
 		<color name="md_tertiary" value="#007fd6c8"/>
 		<color name="md_success" value="#0081c995"/>
 		<color name="md_success_container" value="#000f5223"/>
+		<color name="md_on_success_container" value="#00c4eed0"/>
 		<color name="md_warning" value="#00ffb74d"/>
 		<color name="md_warning_container" value="#006b3f00"/>
+		<color name="md_on_warning_container" value="#00ffddb3"/>
+		<color name="md_inverse_warning" value="#005c4300"/>
 		<color name="md_error" value="#00f28b82"/>
 		<color name="md_error_container" value="#008c1d18"/>
+		<color name="md_on_error_container" value="#00f9dedc"/>
+		<color name="md_inverse_error" value="#007f1710"/>
 		<color name="md_key_red" value="#00f28b82"/>
 		<color name="md_key_green" value="#0081c995"/>
 		<color name="md_key_yellow" value="#00fdd663"/>
@@ -38,29 +47,25 @@
 		<color name="md_shadow" value="#00000000"/>
 		<color name="md_transparent" value="#ff000000"/>
 	</colors>
-	<fonts>
-		<font filename="OpenSans-Regular.ttf" name="Regular" scale="89"/>
-		<font filename="Roboto-Bold.ttf" name="Bold" scale="71"/>
-	</fonts>
 	<screen backgroundColor="md_transparent" flags="wfNoBorder" name="JobCockpit" position="fill" resolution="1920,1080">
-		<eLabel backgroundColor="md_surface_container_high" cornerRadius="16" position="252,111" size="1416,838" zPosition="-11"/>
-		<eLabel backgroundColor="md_surface" cornerRadius="14" position="254,173" size="1412,714" zPosition="-10"/>
-		<widget backgroundColor="md_surface_container_low" font="Bold;36" foregroundColor="md_on_surface" halign="right" position="1530,113" render="Label" size="120,60" source="global.CurrentTime" transparent="1" valign="center" zPosition="20">
+		<eLabel backgroundColor="md_surface_container_high" cornerRadius="16" position="96,54" size="1728,972" zPosition="-11"/>
+		<eLabel backgroundColor="md_surface" cornerRadius="14" position="98,116" size="1724,848" zPosition="-10"/>
+		<widget backgroundColor="md_surface_container_low" font="RobotoMedium;36" foregroundColor="md_on_surface" halign="right" position="1675,56" render="Label" size="120,60" source="global.CurrentTime" transparent="1" valign="center" zPosition="20">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel backgroundColor="md_surface_container_high" position="278,114" size="1252,60" zPosition="19"/>
-		<widget addon="ScreenHeader" backgroundColor="md_surface_container_high" connection="Image,Title,ScreenPath" pathFont="Bold;18" pathForegroundColor="md_primary" position="278,113" size="1252,60" titleFont="Bold;28" titleForegroundColor="md_primary" titleSingleFont="Bold;42" transparent="1" zPosition="20"/>
-		<widget actionButtonsPos="farRight" addon="ScreenButtonsBar" backgroundColor="md_surface_container_high" connection="key_red,key_green,key_yellow,key_blue,key_play,key_previous,key_left,key_info,key_help,key_pvr,key_menu,key_text,VKeyIcon,key_next,key_right,key_0" font="Regular;26" layoutStyle="fluid" pixmaps="key_red:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_red.png,key_green:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_green.png,key_yellow:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_yellow.png,key_blue:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_blue.png,key_play:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_play.png,key_info:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_info.png,key_help:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_help.png,key_pvr:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_pvr.png,key_menu:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_menu.png,key_text:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_text.png,VKeyIcon:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_text.png,key_previous:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_prev.png,key_next:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_next.png,key_left:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_left.png,key_right:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_right.png,key_0:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_0.png" position="278,901" size="1364,36" spacingActionColorGroups="60" spacingColor="120" spacingPixmapText="10" zPosition="10"/>
-		<widget backgroundColor="md_surface" backgroundColorSelected="md_surface_container_high" enableWrapAround="1" foregroundColor="md_on_surface" foregroundColorSelected="md_primary" itemCornerRadiusSelected="6" position="278,203" render="Listbox" scrollbarMode="showOnDemand" scrollbarSliderBorderColor="md_on_surface" scrollbarSliderBorderWidth="1" scrollbarSliderForegroundColor="md_on_surface_variant" scrollbarWidth="5" selectionFrame="none" size="1364,640" source="list" transparent="1">
+		<eLabel backgroundColor="md_surface_container_high" position="125,57" size="1550,60" zPosition="19"/>
+		<widget addon="ScreenHeader" backgroundColor="md_surface_container_high" connection="Image,Title,ScreenPath" pathFont="RobotoMedium;18" pathForegroundColor="md_primary" position="125,56" size="1550,60" titleFont="RobotoMedium;28" titleForegroundColor="md_primary" titleSingleFont="RobotoMedium;42" transparent="1" zPosition="20"/>
+		<widget actionButtonsPos="farRight" addon="ScreenButtonsBar" backgroundColor="md_surface_container_high" connection="key_red,key_green,key_yellow,key_blue,key_play,key_previous,key_left,key_info,key_help,key_pvr,key_menu,key_text,VKeyIcon,key_next,key_right,key_0" font="Roboto;26" layoutStyle="fluid" pixmaps="key_red:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_red.png,key_green:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_green.png,key_yellow:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_yellow.png,key_blue:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_blue.png,key_play:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_play.png,key_info:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_info.png,key_help:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_help.png,key_pvr:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_pvr.png,key_menu:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_menu.png,key_text:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_text.png,VKeyIcon:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_text.png,key_previous:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_prev.png,key_next:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_next.png,key_left:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_left.png,key_right:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_right.png,key_0:/usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/skin/images/buttons/key_0.png" position="125,978" size="1670,36" spacingActionColorGroups="60" spacingColor="120" spacingPixmapText="10" zPosition="10"/>
+		<widget backgroundColor="md_surface" backgroundColorSelected="md_inverse_surface" enableWrapAround="1" foregroundColor="md_on_surface" foregroundColorSelected="md_inverse_on_surface" itemCornerRadiusSelected="12" position="125,150" render="Listbox" scrollbarMode="showOnDemand" scrollbarSliderBorderColor="md_on_surface" scrollbarSliderBorderWidth="1" scrollbarSliderForegroundColor="md_on_surface_variant" scrollbarWidth="5" selectionFrame="none" size="1670,720" source="list" transparent="1">
 			<convert type="COCTemplatedMultiContentEx">
 			{
 				"template": [
-					MultiContentEntryText(pos=(10,0), size=(1000,40), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=0),
+					MultiContentEntryText(pos=(10,0), size=(1306,40), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=0),
 					MultiContentEntryText(pos=(10,40), size=(200,40), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=1),
-					MultiContentEntryProgress(pos=(250,50), size=(1000,20), percent=-2, borderWidth=1),
-					MultiContentEntryText(pos=(1266,40), size=(100,40), font=0, flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER, text=3),
+					MultiContentEntryProgress(pos=(250,50), size=(1306,20), percent=-2, borderWidth=1),
+					MultiContentEntryText(pos=(1570,40), size=(100,40), font=0, flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER, text=3),
 				],
-				"fonts": [parseFont("Regular;26")],
+				"fonts": [parseFont("Roboto;26")],
 				"itemHeight": 80
 			}
 			</convert>

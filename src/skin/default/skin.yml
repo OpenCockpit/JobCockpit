@@ -1,7 +1,7 @@
 skin:
   children:
     - xmlinc:
-        file: "screenpart_globals.ymlinc"
+        file: "globals.ymlinc"
     - global:
         name: "buttons_dir"
         value: "/usr/lib/enigma2/python/Plugins/SystemPlugins/%PLUGIN%/skin/images/buttons"

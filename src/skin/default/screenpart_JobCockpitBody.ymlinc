@@ -18,7 +18,7 @@
             fields:
               - text:
                   position: "10,0"
-                  size: "1000,40"
+                  size: "1306,40"
                   font: "$md_body_small"
                   flags: RT_HALIGN_LEFT|RT_VALIGN_CENTER
                   value: 0
@@ -30,11 +30,11 @@
                   value: 1
               - progress:
                   position: "250,50"
-                  size: "1000,20"
+                  size: "1306,20"
                   value: -2
                   borderWidth: 1
               - text:
-                  position: "1266,40"
+                  position: "1570,40"
                   size: "100,40"
                   font: "$md_body_small"
                   flags: RT_HALIGN_RIGHT|RT_VALIGN_CENTER
