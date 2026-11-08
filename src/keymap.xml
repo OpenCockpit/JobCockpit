@@ -1,0 +1,27 @@
+<keymap>
+	<map context="JOC_Actions">
+		<key id="KEY_OK" mapto="ok" flags="mr" />
+		<key id="KEY_EXIT" mapto="cancel" flags="mr" />
+		
+		<key id="KEY_RED" mapto="red" flags="m" />
+		<key id="KEY_GREEN" mapto="green" flags="m" />
+		<key id="KEY_YELLOW" mapto="yellow" flags="m" />
+		<key id="KEY_BLUE" mapto="blue" flags="m" />
+		
+		<key id="KEY_UP" mapto="up" flags="mr" />
+		<key id="KEY_DOWN" mapto="down" flags="mr" />
+		<key id="KEY_LEFT" mapto="left" flags="mr" />
+		<key id="KEY_RIGHT" mapto="right" flags="mr" />
+		
+		<key id="KEY_MENU" mapto="menu" flags="mr" />
+		<key id="KEY_MENU" mapto="menulong" flags="l" />
+		
+		<key id="KEY_NEXT" mapto="next" flags="mr" />
+		<key id="KEY_PREVIOUS" mapto="back" flags="mr" />
+		
+		<key id="KEY_INFO" mapto="info" flags="m" />
+		
+		<key id="KEY_CHANNELUP" mapto="channelup" flags="mr" />
+		<key id="KEY_CHANNELDOWN" mapto="channeldown" flags="mr" />
+	</map>
+</keymap>

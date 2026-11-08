@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# The original Components/Task of enigma2 is put back (the Task.py, or the Task.pyc on an image that has only that, like OpenViX), if the file
+# is still the one of the plugin. This is the prerm because PyReplace.py
+# is part of the plugin and gone in the postrm. The postinst of an update puts the files in place again.
+if [ "$1" = "remove" ]; then
+	python3 /usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/PyReplace.py restore --legacy-marker getSuccessfulJobs
+fi
+exit 0

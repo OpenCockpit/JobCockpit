@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JobCockpit\n"
+"POT-Creation-Date: 2026-02-24 16:14+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: xcentaurix\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Job Management"
+msgstr "Job-Verwaltung"
+
+msgid "Abort current job"
+msgstr "Job abbrechen"
+
+msgid "Abort all jobs"
+msgstr "Jobs abbrechen"
+
+msgid "Abort all pending jobs"
+msgstr "Wartende Jobs abbrechen"
+
+msgid "Cleanup jobs"
+msgstr "Bereinigen"
+
+msgid "Waiting"
+msgstr "Wartet"
+
+msgid "In Progress"
+msgstr "In Bearbeitung"
+
+msgid "Finished"
+msgstr "Beendet"
+
+msgid "Failed"
+msgstr "Fehlerhaft"
+
+msgid "Manage Jobs"
+msgstr "Jobs verwalten"
+
+msgid "Jobs"
+msgstr "Jobs"
+
+msgid "Cancelled upon user request"
+msgstr "Auf Benutzerwunsch abgebrochen"
+
+msgid "An unknown error occurred!"
+msgstr "Es ist ein unbekannter Fehler aufgetreten."
+
+msgid "Not enough disk space. Please free up some disk space and try again. (%d MB required, %d MB available)"
+msgstr "Nicht genügend freier Speicherplatz - bitte lösche nicht mehr benötigte Dateien, und versuche es erneut. (%d MB benötigt, %d MB verfügbar)"
+
+msgid "A required tool (%s) was not found."
+msgstr "Ein erforderliches Hilfsprogramm (%s) wurde nicht gefunden."
+
+msgid "In progress"
+msgstr "In Bearbeitung..."
+
+msgid "Error code"
+msgstr "Fehler Code"
+
+msgid ""
+"Error: %s\n"
+"Retry?"
+msgstr ""
+"Fehler aufgetreten: %s\n"
+"Erneut versuchen?"
+
+msgid "Error"
+msgstr "Fehler"

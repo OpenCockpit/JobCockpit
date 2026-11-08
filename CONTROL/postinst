@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Components/Task of enigma2 is replaced by the one of the plugin (as Task.py, or compiled as Task.pyc on an image that has only the .pyc, like
+# OpenViX), the original is saved. PyReplace.py does that (see there for the rules);
+# it saves a file only if it is not the one that it has put in place itself, so that the saved original is never an old one. Also an update of
+# the plugin ends here, and an update of enigma2 is taken care of when the plugin starts.
+python3 /usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit/PyReplace.py sync --legacy-marker getSuccessfulJobs
+
+echo "***********************************"
+echo "*           JobCockpit            *"
+echo "*               by                *"
+echo "*          xcentaurix             *"
+echo "***********************************"
+echo ""
+echo "Plugin installed successfully."
+echo "Please restart Enigma2 now!"
+echo ""
+exit 0
