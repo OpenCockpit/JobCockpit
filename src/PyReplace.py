@@ -18,8 +18,8 @@
 #     alone. The saved originals are deleted in both cases, they are never kept for a later install.
 #
 # An image that has the .py of a file gets the .py of the plugin (a .py is used before a .pyc of the same name). An image that has only the .pyc
-# gets the file compiled to a .pyc, no .py (compiled here, by the python of the box, so it is of the right version; like PluginUpgrade.compilePY
-# does, which can't be used here as it needs enigma2). A file with an error is not put in place.
+# gets the file compiled to a .pyc, no .py (compiled here, by the python of the box, so it is of the right version). A file with an error is not
+# put in place.
 #
 # Where the state is lost (or there never was one: earlier versions of the plugins kept the originals as <file>.py.org and <file>.pyc.org) a file
 # is ours if it is the file of the plugin (the .pyc as compiled from it), or contains one of the legacy markers (--legacy-marker, a text that is
