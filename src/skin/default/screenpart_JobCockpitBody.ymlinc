@@ -1,3 +1,5 @@
+- param: {name: "width"}
+- param: {name: "height"}
 - widget:
     backgroundColorSelected: "$backgroundColorSelected"
     foregroundColorSelected: "$foregroundColorSelected"
