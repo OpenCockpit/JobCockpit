@@ -60,10 +60,11 @@
 			<convert type="COCTemplatedMultiContentEx">
 			{
 				"template": [
-					MultiContentEntryText(pos=(10,0), size=(1676-20,40), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=0),
+					MultiContentEntryText(pos=(10,0), size=(240+1300+(1676-10-10)-240-1300,40), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=0),
 					MultiContentEntryText(pos=(10,40), size=(200,40), font=0, flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER, text=1),
-					MultiContentEntryProgress(pos=(250,50), size=(1300,20), percent=-2, borderWidth=1),
-					MultiContentEntryText(pos=(1676-100-10,40), size=(100,40), font=0, flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER, text=3),
+					MultiContentEntryRectangle(pos=(250,50), size=(1300,20), backgroundColor="md_surface_container_highest", backgroundColorSelected="md_outline", cornerRadius=10),
+					MultiContentEntryProgress(pos=(250,50), size=(1300,20), percent=-2, foreColor="md_primary", foreColorSelected="md_inverse_primary", cornerRadius=10),
+					MultiContentEntryText(pos=(1550+(1676-10-10)-240-1300-100,40), size=(100,40), font=0, flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER, text=3),
 				],
 				"fonts": [parseFont("Roboto;26")],
 				"itemHeight": 80

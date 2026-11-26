@@ -1,0 +1,39 @@
+- param: {name: "width"}
+- param: {name: "height"}
+# the jobs: a row a job, its name over the whole row, under it its state, its progress bar and the percentage of it
+- list:
+    backgroundColorSelected: "$backgroundColorSelected"
+    foregroundColorSelected: "$foregroundColorSelected"
+    itemCornerRadiusSelected: "$radius_item"
+    position: "0,0"
+    size: "$width,eval($height/80*80)"
+    source: "list"
+    converter: "COCTemplatedMultiContentEx"
+    item:
+      height: 80
+      padding: "10,10"
+      fonts: ["$md_body_small"]
+      columns: [240, 1300, "*"]
+      rows: [40, 40]
+      body:
+        - row:
+            # name
+            - cell:
+                colspan: 3
+                children:
+                  - text: {font: "$md_body_small", flags: RT_HALIGN_LEFT|RT_VALIGN_CENTER, value: 0}
+        - row:
+            # state
+            - cell:
+                children:
+                  - text: {size: "200,e", font: "$md_body_small", flags: RT_HALIGN_LEFT|RT_VALIGN_CENTER, value: 1}
+            # progress: a rounded bar on its track (a rounded bar draws neither its border nor its unfilled part, and
+            # needs its colours); round ends: half its height, like the other bars of the skin
+            - cell:
+                children:
+                  - rect: {position: "0,center", size: "e,20", backgroundColor: "md_surface_container_highest", backgroundColorSelected: "md_outline", cornerRadius: 10}
+                  - progress: {position: "0,center", size: "e,20", value: -2, foreColor: "md_primary", foreColorSelected: "md_inverse_primary", cornerRadius: 10}
+            # percentage, at the end of the row
+            - cell:
+                children:
+                  - text: {position: "e-100,0", size: "100,e", font: "$md_body_small", flags: RT_HALIGN_RIGHT|RT_VALIGN_CENTER, value: 3}
